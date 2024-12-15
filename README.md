@@ -55,3 +55,7 @@ Do $System.Status.DisplayError(tSC)
 
 ## Set up an OAuth2 Client
 
+http://localhost:57700/csp/sys/sec/%25CSP.UI.Portal.OAuth2.Client.ServerList.zen
+
+<img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_1.png">
+
