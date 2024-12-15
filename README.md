@@ -76,3 +76,9 @@ I clicked Cancel and returned to
 http://localhost:57700/csp/sys/sec/%25CSP.UI.Portal.OAuth2.Client.ServerList.zen
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_Server_4.png">
+
+## Create Client Confifguration
+
+Click Create Client Configuration link
+
+<img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_5.png">
