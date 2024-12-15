@@ -90,7 +90,9 @@ Click on Create Client Configuration
 
 Under General Tab, fill in Application Name: 
 
+```
 medbank
+```
 
 Choose Client Type Confidential
 
@@ -100,11 +102,15 @@ Under Client redirect URL,
 
 Fill in Host name
 
+```
 localhost
+```
 
 Port
 
+```
 57700
+```
 
 Uncheck Use TLS/SSL checkbox
 
@@ -116,7 +122,9 @@ Under Authentication signing algorithm, choose RS384
 
 Fill in Audience
 
+```
 https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
+```
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_General_7.PNG">
 
