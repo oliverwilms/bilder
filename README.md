@@ -41,7 +41,7 @@ sudo docker cp ./privatekey.pem container_name:/home/irisowner/dev/
 sudo docker cp ./publickey509.pem container_name:/home/irisowner/dev/
 chmod 600 privatekey.pem
 ```
-I created %SYS.X509Credential in IRIS
+I created X509 credentials in IRIS
 ```
 Set oX509Credentials = ##class(%SYS.X509Credentials).%New()
 Set oX509Credentials.Alias = "medbank"
@@ -118,6 +118,8 @@ Fill in Audience
 https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_General_7.PNG">
+
+Under JWT Settings tab, check Create JWT Settings from X509 credentials checkbox. Choose your credentials from the dropdown. In the Signing column of the Access token algorithms row, choose RS384.
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_JWT_8.png">
 
