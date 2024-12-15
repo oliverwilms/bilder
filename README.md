@@ -13,5 +13,6 @@ where '/CN=medbank' is the subject name (for example the app name) the key pair 
 
 I registered my app “medbank” so that I could obtain a Client ID
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/Epic_on_FHIR_1.png">
+<img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/Epic_on_FHIR_2.png">
 ```
 ```
