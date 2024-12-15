@@ -122,3 +122,5 @@ https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_JWT_8.png">
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_ClientCredentials_9.png">
+
+Important: Do not forget to click Save
