@@ -29,5 +29,8 @@ We then tried running this on the terminal using IsAuthorized() and GetAccessTok
 A couple days later, we saw that the grant_type was actually supposed to be client_credentials, so we switched to using that by switching from GetAccessTokenJWT() to GetAccessTokenClient() and that made it work.
 
 ## I want to implement Epic on FHIR as a use case for iris-http-calls
+I used Docker to deploy iris-http-calls in AWS.
 ```
+sudo docker build --no-cache --progress=plain . -t oliverwilms/iris-http-calls 2>&1 | tee build.log
+sudo docker run -d -p57700:52773 oliverwilms/iris-http-calls
 ```
