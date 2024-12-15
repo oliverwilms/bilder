@@ -123,7 +123,7 @@ Under JWT Settings tab, check Create JWT Settings from X509 credentials checkbox
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_JWT_8.png">
 
-Under Client Credentials tab, I pasted the Non-Production Client ID I had received from Epic on FHIR. Client secret is required. I filled in value of x.
+Under Client Credentials tab, I pasted the Non-Production Client ID I had received from Epic on FHIR. Client secret is required. I filled it in as x.
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_ClientCredentials_9.png">
 
