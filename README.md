@@ -12,6 +12,7 @@ openssl req -new -x509 -key ./path_to_key/privatekey.pem -out ./path_to_key/publ
 ```
 where '/CN=medbank' is the subject name (for example the app name) the key pair is for. The subject name does not have a functional impact in this case but it is required for creating an X.509 certificate.
 
+## Epic on FHIR is a free resource for developers who create apps for use by patients and healthcare organizations.
 I registered my app “medbank” so that I could obtain a Client ID
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/Epic_on_FHIR_1.png">
 I cut out Client IDs and edited Non-Production JWK Set URL to protect the real IP address.
