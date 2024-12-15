@@ -13,7 +13,13 @@ where '/CN=medbank' is the subject name (for example the app name) the key pair 
 
 I registered my app “medbank” so that I could obtain a Client ID
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/Epic_on_FHIR_1.png">
-I cut out Client ID and edited Non-Production JWK Set URL to protect the real IP address.
+I cut out Client IDs and edited Non-Production JWK Set URL to protect the real IP address.
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/Epic_on_FHIR_2.png">
+
+Epic's documentation stated, your application makes a HTTP POST request to the authorization server's OAuth 2.0 token endpoint to obtain access token. I tried to write code, but I never succeeded in obtaining an access token.
+
+I called InterSystems WRC for help. 
+
+
 ```
 ```
