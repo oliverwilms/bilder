@@ -61,13 +61,11 @@ http://localhost:57700/csp/sys/sec/%25CSP.UI.Portal.OAuth2.Client.ServerList.zen
 
 ## Create Server Description
 
-Click on Create Server Description
-
-<img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_2.png">
-
-Issuer Endpoint:
+Click on Create Server Description. Fill in Issuer Endpoint:
 
 Choose SSL Config
+
+<img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_2.png">
 
 Click on Discover and Save
 
