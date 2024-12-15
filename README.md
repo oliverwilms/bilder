@@ -87,6 +87,34 @@ Click on Create Client Configuration
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_6.png">
 
-Uncheck Use TLS/SSL
+Fill in Application Name: 
+
+medbank
+
+Choose Client Type Confidential
+
+Choose SSL Configuration
+
+Under Client redirect URL, 
+
+Fill in Host name
+
+localhost
+
+Port
+
+57700
+
+Uncheck Use TLS/SSL checkbox
+
+Under Required grant types, check Client credentials
+
+Under Authentication type, choose private key JWT
+
+Under Authentication signing algorithm, choose RS384
+
+Fill in Audience
+
+https://fhir.epic.com/interconnect-fhir-oauth/oauth2/token
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_General_7.png">
