@@ -81,6 +81,6 @@ Click on Client Configurations link.
 
 ## Create Client Configuration
 
-Click Create Client Configuration link
+Click on Create Client Configuration
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_5.png">
