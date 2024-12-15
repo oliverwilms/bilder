@@ -65,6 +65,7 @@ Click on Create Server Description
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_2.png">
 Fill in Issuer Endpoint, choose SSL/TLS Configuration and click on Discover and Save
+
 ```
 https://fhir.epic.com/interconnect-fhir-oauth/oauth2
 ```
