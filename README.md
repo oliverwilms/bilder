@@ -68,7 +68,7 @@ https://fhir.epic.com/interconnect-fhir-oauth/oauth2
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_2.png">
 
-Choose SSL Config and click on Discover and Save
+Choose SSL/TLS Configuration and click on Discover and Save
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_3.png">
 
