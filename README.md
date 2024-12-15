@@ -41,3 +41,14 @@ sudo docker cp ./privatekey.pem container_name:/home/irisowner/dev/
 sudo docker cp ./publickey509.pem container_name:/home/irisowner/dev/
 chmod 600 privatekey.pem
 ```
+I created %SYS.X509Credential in IRIS
+```
+Set oX509Credentials = ##class(%SYS.X509Credentials).%New()
+Set oX509Credentials.Alias = "medbank"
+Set tSC = oX509Credentials.LoadCertificate("/home/irisowner/dev/publickey509.pem")
+Do $System.Status.DisplayError(tSC)
+Set tSC = oX509Credentials.LoadPrivateKey("/home/irisowner/dev/privatekey.pem")
+Do $System.Status.DisplayError(tSC)
+Set tSC = oX509Credentials.%Save()
+Do $System.Status.DisplayError(tSC)
+```
