@@ -34,3 +34,10 @@ I used Docker to deploy iris-http-calls in AWS.
 sudo docker build --no-cache --progress=plain . -t oliverwilms/iris-http-calls 2>&1 | tee build.log
 sudo docker run -d -p57700:52773 oliverwilms/iris-http-calls
 ```
+Copy private and public key files with read access for IRIS
+```
+chmod 644 privatekey.pem
+sudo docker cp ./privatekey.pem container_name:/home/irisowner/dev/ 
+sudo docker cp ./publickey509.pem container_name:/home/irisowner/dev/
+chmod 600 privatekey.pem
+```
