@@ -63,4 +63,10 @@ Click on Create Server Description
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_2.png">
 
+Issuer Endpoint:
 
+Choose SSL Config
+
+Click on Discover and Save
+
+<img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_3.pn">
