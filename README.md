@@ -20,6 +20,8 @@ Epic's documentation stated, your application makes a HTTP POST request to the a
 
 I called InterSystems WRC for help. 
 
+We set up an OAuth2 client using the "JWT Authorization" grant type and "private key JWT" for authentication.
 
+We then tried running this on the terminal using IsAuthorized() and GetAccessTokenJWT(), but it responded saying "invalid client ID".
 ```
 ```
