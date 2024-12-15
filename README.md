@@ -71,6 +71,8 @@ Click on Discover and Save
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Server_3.png">
 
-I clicked Cancel
+I clicked Cancel and returned to
+
+http://localhost:57700/csp/sys/sec/%25CSP.UI.Portal.OAuth2.Client.ServerList.zen
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_Server_4.png">
