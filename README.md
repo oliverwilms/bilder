@@ -98,9 +98,7 @@ Choose Client Type Confidential
 
 Choose SSL Configuration
 
-Under Client redirect URL, 
-
-Fill in Host name
+Under Client redirect URL, fill in Host name
 
 ```
 localhost
