@@ -87,7 +87,7 @@ Click on Create Client Configuration
 
 <img width="1411" alt="Screenshot" src="https://github.com/oliverwilms/bilder/blob/main/OAuth2_Client_6.png">
 
-Fill in Application Name: 
+Under General Tab, fill in Application Name: 
 
 medbank
 
