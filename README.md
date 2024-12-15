@@ -24,6 +24,6 @@ We set up an OAuth2 client using the "JWT Authorization" grant type and "private
 
 We then tried running this on the terminal using IsAuthorized() and GetAccessTokenJWT(), but it responded saying "invalid client ID".
 
-A couple days later, we saw that the grant_type was actually supposed to be client_credentials, so we switched to using that by switching from GetAccessTokenJWT() to GetAccessTokenClient() and that make it work.
+A couple days later, we saw that the grant_type was actually supposed to be client_credentials, so we switched to using that by switching from GetAccessTokenJWT() to GetAccessTokenClient() and that made it work.
 ```
 ```
